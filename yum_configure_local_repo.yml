@@ -4,13 +4,13 @@
   become: yes
   vars:
     yum_repos:
-      - name: "RHEL 9 Base Repo"
+      - name: "RHEL_9_Base_Repo"
         description: "RHEL 9 Base Software"
         repo_url: "http://util.local.lab/rhel9/BaseOS"
-      - name: "RHEL 9 AppStream"
+      - name: "RHEL_9_AppStream"
         description: "RHEL 9 AppStream software"
         repo_url: "http://util.local.lab/rhel9/AppStream"
-      - name: "codeready-builder-for-rhel-9-x86_64"
+      - name: "Codeready-Builder-for-rhel-9-x86_64"
         description: "Codeready Builder for RHEL 9 x86_64"
         repo_url: "http://util.local.lab/rhel9/codeready-builder-for-rhel-9-x86_64-rpms/"
 
