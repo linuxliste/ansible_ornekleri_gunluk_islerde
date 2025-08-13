@@ -1,0 +1,12 @@
+---
+ansible-navigator:
+  ansible:
+    config:
+      path: ./ansible.cfg
+  execution-environment:
+    image: bastion.local.lab/ansible-automation-platform-25/ee-supported-rhel8 
+    pull:
+      policy: missing
+  playbook-artifact: 
+    enable: no
+  mode: stdout  
